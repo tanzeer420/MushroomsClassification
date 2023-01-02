@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from app import app
 import numpy as np
 import pickle
 app = Flask(__name__)
